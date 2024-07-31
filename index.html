@@ -3,22 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VIP Lounge Menu</title>
+    <title>Asaba Airport VIP Lounge</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #004151; 
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #F5A333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff; 
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+            background-color: #fff;
+        }
+        .content h2, .content b {
+            color: #333;
+        }
+        .content p, .content li {
+            line-height: 1.6;
+            color: #555;
+        }
+        footer {
+            background-color: #F5A333; 
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .spacer {
+            margin-bottom: 50px; 
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to the VIP Lounge E-Menu</h1>
-    <p>Enjoy exclusive access to our VIP Lounge. Below you will find the exclusive menu for our VIP guests.</p>
-    <h2>Access Fee</h2>
-    <ul>
-        <li>Adults: N6000</li>
-        <li>Kids:  N4000</li>
-    </ul>
-    <p>Access includes complimentary:</p>
-    <ul>
-        <li>Tea/Coffee with biscuits</li>
-        <li>or Soft drink with biscuits</li>
-    </ul>
-   <p>For any questions please contact us via E-mail at <a href="mailto:blessing.okafor@aac.ng">blessing.okafor@aac.ng</a> or via Telephone at <a href="tel:+2349087990586">+234-908-799-0586</a></p>
-    <p><a href="https://bit.ly/4cTAwgX">Click to view the Menu</a></p>
+    <header>
+        <h1>Welcome to Asaba Airport VIP Lounge</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>
+            Located within Asaba Airport, the VIP Lounge offers a serene environment where you can relax while waiting for your flight. Our lounge is not just about comfort, it also features ambient lighting and dish channel viewing, enhancing your experience. We specialize in providing a selection of premium snacks and drinks in a comfortable and exclusive setting designed for travelers seeking a quiet escape with all the amenities needed to refresh and recharge.
+        </p>
+    </div>
+    <div class="content" id="menu">
+        <h2>Our Menu</h2>
+        <p>
+            Our lounge menu is thoughtfully curated to provide guests with a variety of snack options and a wide range of drinks, from coffees to fine wines. Our offerings are perfect for a quick refreshment or a relaxing break in your journey.
+        </p>
+        <p><b>ACCESS FEE:</b></p>
+        <p>Adult: N6,000</p>
+        <p>Children: N4,000</p>
+        <p>Access includes complimentary:</p>
+        <ul>
+            <li>Tea/Coffee with biscuits</li>
+            <li>or Soft drink with biscuits</li>
+        </ul>
+        <p><a href="https://bit.ly/4cTAwgX">Kindly Click to view the Menu</a></p>
+    </div>
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            For any inquiries, please contact us via E-mail at <a href="mailto:blessing.okafor@aac.ng">blessing.okafor@aac.ng</a> or via Telephone at <a href="tel:+2349087990586">+234-908-799-0586</a>.
+        </p>
+    </div>
+    <div class="spacer"></div> <!-- This div adds space before the footer -->
+    <footer>
+        &copy; 2024 Asaba VIP Lounge. All rights reserved.
+    </footer>
 </body>
 </html>
