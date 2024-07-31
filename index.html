@@ -11,6 +11,21 @@
             padding: 0;
             background-color: #f4f4f4;
         }
+
+        .menu-button {
+            background-color: #F5A333; /* Orange background */
+            color: #fff; /* White text */
+            padding: 10px 20px; /* Padding around the text */
+            text-decoration: none; /* No underline */
+            border: none; /* No borders */
+            border-radius: 5px; /* Rounded corners */
+            font-weight: bold; /* Bold font */
+        }
+
+        .menu-button:hover {
+            background-color: #e5942b; /* Slightly darker orange on hover */
+        }
+
         header {
             background-color: #004151; 
             color: #fff;
@@ -61,8 +76,10 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Asaba Airport VIP Lounge</h1>
-    </header>
+    <img src="images/logo.png" alt="Asaba Airport VIP Lounge Logo" style="vertical-align: middle;">
+    <h1>Welcome to Asaba Airport VIP Lounge</h1>
+</header>
+    
     <nav>
         <a href="#about">About Us</a>
         <a href="#menu">Menu</a>
@@ -87,7 +104,8 @@
             <li>Tea/Coffee with biscuits</li>
             <li>or Soft drink with biscuits</li>
         </ul>
-        <p><a href="https://bit.ly/4cTAwgX">Kindly Click to view the Menu</a></p>
+        <p><a href="https://bit.ly/4cTAwgX" class="menu-button">Click to view the Menu</a></p>
+
     </div>
     <div class="content" id="contact">
         <h2>Contact Us</h2>
